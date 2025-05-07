@@ -72,8 +72,8 @@ void oledkit_render_info_user(void) {
 
 // Custom combo
 #ifdef COMBO_ENABLE
-const uint16_t PROGMEM my_comma[] = {KC_M, QK_MOUSE_BUTTON_1, COMBO_END};
-const uint16_t PROGMEM my_dot[] = {QK_MOUSE_BUTTON_1, QK_MOUSE_BUTTON_2, COMBO_END};
+const uint16_t PROGMEM my_comma[] = {KC_M, MS_BTN1, COMBO_END};
+const uint16_t PROGMEM my_dot[] = {MS_BTN1, MS_BTN2, COMBO_END};
 
 combo_t key_combos[] = {
   COMBO(my_comma, KC_COMMA),
