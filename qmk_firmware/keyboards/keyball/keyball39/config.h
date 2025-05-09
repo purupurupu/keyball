@@ -79,4 +79,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef LOCKING_RESYNC_ENABLE
 
 // For combo
-#define COMBO_TERM 500
+#define COMBO_TERM 300
