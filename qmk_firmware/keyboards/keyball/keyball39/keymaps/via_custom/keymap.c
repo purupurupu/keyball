@@ -72,11 +72,17 @@ void oledkit_render_info_user(void) {
 
 // Custom combo
 #ifdef COMBO_ENABLE
-const uint16_t PROGMEM my_comma[] = {KC_C, KC_BTN1, COMBO_END};
-const uint16_t PROGMEM my_dot[] = {KC_X, KC_BTN2, COMBO_END};
+const uint16_t PROGMEM my_comma[] = {KC_F, KC_BTN1, COMBO_END};
+const uint16_t PROGMEM my_dot[] = {KC_F, KC_BTN2, COMBO_END};
+const uint16_t PROGMEM my_semicolon[] = {KC_F, KC_L, COMBO_END};
+const uint16_t PROGMEM my_quote[] = {KC_F, KC_ENT, COMBO_END};
+const uint16_t PROGMEM my_slash[] = {KC_F, KC_P, COMBO_END};
 
 combo_t key_combos[] = {
   COMBO(my_comma, KC_COMMA),
   COMBO(my_dot, KC_DOT),
+  COMBO(my_semicolon, KC_SCLN),
+  COMBO(my_quote, KC_QUOT),
+  COMBO(my_slash, KC_SLSH),
 };
 #endif
